@@ -1,0 +1,94 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2039000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to Launch Browser and url",
+            "match": {
+              "location": "StepdefinitionClass.user_has_to_Launch_Browser_and_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2026-09-18T12:08:20.050Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7707057000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.precond()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Navigate to Login page",
+        "description": "",
+        "id": "to-validate-the-my-accout-functionality-of-otrium;navigate-to-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3165675300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Login link",
+            "match": {
+              "location": "StepdefinitionClass.user_clicks_on_the_Login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6797097700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be navigated to the Login page",
+            "match": {
+              "location": "StepdefinitionClass.user_should_be_navigated_to_the_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the My accout functionality of Otrium",
+    "description": "",
+    "id": "to-validate-the-my-accout-functionality-of-otrium",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/acer/youtube-workspace/OtriumCucumber/src/test/resources/Feature/Myaccount.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

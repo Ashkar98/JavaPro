@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.727303">
+    <testcase classname="To Validate the My accout functionality of Otrium" name="Navigate to Login page" time="17.727303">
+        <system-out><![CDATA[Given User has to Launch Browser and url....................................passed
+When User clicks on the Login link..........................................passed
+Then User should be navigated to the Login page.............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
