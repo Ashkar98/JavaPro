@@ -24,15 +24,12 @@ public class Hooks extends BaseClass{
 	public void postCond2() {
 		driver.close();
 		
-		if (s.isFailed()) {
-			
-		}
-
+		
 	
 	
 	
 
 	
-	
+	}	
 
 }
